@@ -18,16 +18,14 @@
     "react-scripts": "5.0.1",
     "save-dev": "^0.0.1-security",
     "tachyons": "^4.12.0",
-    "web-vitals": "^2.1.4",
-    "homepage": "https://amandevopsreal.github.io"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": [

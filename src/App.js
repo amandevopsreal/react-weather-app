@@ -53,12 +53,12 @@ function App() {
           <Logo />
           <Loc setloc={setLocation} search={searchLocation} search2={searchLocation2} status={setStatus} />
         </div> :
-        <div>
+        <div className='flex flex-column'>
           
           <Loc setloc={setLocation} search={searchLocation} search2={searchLocation2} status={setStatus} />
           <Weather2 data={data} />
+          
         </div>}
-
     </div>
 
   );

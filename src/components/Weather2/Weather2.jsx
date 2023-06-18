@@ -2,7 +2,7 @@ import React from "react";
 
 const Weather2 = ({ data }) => {
     return (
-        <div>
+        <div className="mb-5">
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-md-4">
